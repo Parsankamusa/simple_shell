@@ -80,7 +80,7 @@ line = _realloc(line, old_size, line_size);
 _strcat(line, buffer);
 old_size = line_size;
 }
-while (b_read);
+while (b_read); }
   {
 for (i = 0; line[i] == '\n'; i++)
 line[i] = ' ';
@@ -123,5 +123,4 @@ ret = call_args(args, front, exe_ret);
 
 free(front);
 return (ret);
-}
 }
