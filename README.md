@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <h1 align ="center">simple_shell :shell:</h1><br>
 <p align="center">
 <img src="https://cdn.shopify.com/s/files/1/0204/4104/products/20180517-20180517-P1260614_600x.jpg?v=1528506358">
