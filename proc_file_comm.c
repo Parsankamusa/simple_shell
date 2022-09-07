@@ -83,7 +83,6 @@ old_size = line_size;
 while (b_read){
 for (i = 0; line[i] == '\n'; i++)
 line[i] = ' ';
-}
 for (; i < line_size; i++)
 {
 if (line[i] == '\n')
