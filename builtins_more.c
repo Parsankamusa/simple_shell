@@ -121,6 +121,7 @@ int builtin_help(data_of_program *data)
 
 	for (i = 0; mensajes[i]; i++)
 	{
+		/*print the length of string */
 		length = str_length(data->tokens[1]);
 		if (str_compare(data->tokens[1], mensajes[i], length))
 		{
